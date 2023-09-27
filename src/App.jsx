@@ -1,11 +1,8 @@
 import React from "react";
+import BuildinfForm from "./pages/BuildingForm";
 
 const App = () => {
-  return (
-    <div>
-      <div className="text-3xl text-blue-500">App</div>
-    </div>
-  );
+  return <BuildinfForm />;
 };
 
 export default App;
