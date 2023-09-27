@@ -1,10 +1,11 @@
 import React from "react";
+import HelloWord from "./pages/HelloWord";
 
 const App = () => {
   return (
-    <div>
-      <div className="text-3xl text-blue-500">App</div>
-    </div>
+    <>
+      <HelloWord />
+    </>
   );
 };
 
