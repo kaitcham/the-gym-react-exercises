@@ -1,9 +1,14 @@
 import React from "react";
+import StateProps from "./pages/StateProps";
 
 const App = () => {
+  const [count, setCount] = React.useState(0);
   return (
-    <div>
-      <div className="text-3xl text-blue-500">App</div>
+    <div className="grid h-screen place-content-center">
+      <h3>
+        You have clicked me {count > 1 ? count + " times" : count + " time"}{" "}
+      </h3>
+      <StateProps handleClick={() => setCount((count) => count + 1)} />
     </div>
   );
 };
