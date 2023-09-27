@@ -1,10 +1,10 @@
+import { list } from "postcss";
 import React from "react";
 
-const MapRender = () => {
-  const arr = ["dog", "cat", "chicken", "cow", "sheep", "horse"];
+const MapRender = ({ items }) => {
   return (
-    <ul className="list-disc p-10">
-      {arr.map((item, index) => (
+    <ul className="p-10">
+      {items.map((item, index) => (
         <li key={index}>{item}</li>
       ))}
     </ul>
