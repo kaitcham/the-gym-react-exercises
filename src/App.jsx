@@ -1,9 +1,10 @@
 import React from "react";
+import Calculator from "./pages/Calculator";
 
 const App = () => {
   return (
-    <div>
-      <div className="text-3xl text-blue-500">App</div>
+    <div className="grid h-screen items-center">
+      <Calculator />
     </div>
   );
 };
