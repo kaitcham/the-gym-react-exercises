@@ -1,11 +1,9 @@
 import React from "react";
+import MapRender from "./pages/MapRender";
 
 const App = () => {
-  return (
-    <div>
-      <div className="text-3xl text-blue-500">App</div>
-    </div>
-  );
+  const arr = ["dog", "cat", "chicken", "cow", "sheep", "horse"];
+  return <MapRender items={arr} />;
 };
 
 export default App;
