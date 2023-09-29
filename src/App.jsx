@@ -1,11 +1,8 @@
 import React from "react";
+import MapRender from "./pages/MapRender";
 
 const App = () => {
-  return (
-    <div>
-      <div className="text-3xl text-blue-500">App</div>
-    </div>
-  );
+  return <MapRender />;
 };
 
 export default App;
